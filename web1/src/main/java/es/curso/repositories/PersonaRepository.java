@@ -11,7 +11,7 @@ import es.curso.negocio.Persona;
 
 public class PersonaRepository {
 
-	static final String DB_URL = "jdbc:mysql://localhost:8889/cie1";
+	static final String DB_URL = "jdbc:mysql://localhost:3306/cie1";
 	static final String USER = "root";
 	static final String PASS = "root";
 	static final String QUERY = "SELECT * from Personas";
